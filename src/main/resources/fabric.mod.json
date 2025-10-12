@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "rpgcobblemon",
+  "version": "${version}",
+  "name": "RPG Cobblemon",
+  "description": "A RPG mod for Cobblemon",
+  "authors": [
+    "Arthur Araujo"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "modgit"
+  },
+  "license": "MIT License",
+  "icon": "assets/rpgcobblemon/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "com.rpgcobblemon.RPGCobblemon"
+      }
+    ],
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "com.rpgcobblemon.RPGCobblemonClient"
+      }
+    ]
+  },
+  "depends": {
+    "minecraft": "1.21.1",
+    "fabric-language-kotlin": ">=1.12.3+kotlin.2.0.21",
+    "cobblemon": ">=1.6.0"
+  }
+}

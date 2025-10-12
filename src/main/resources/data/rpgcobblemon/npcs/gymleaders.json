@@ -1,0 +1,253 @@
+{
+  "blaine": {
+    "id": "blaine",
+    "name": "Blaine",
+    "skin": "rpgcobblemon:textures/skins/gymleaders/blaine.png",
+    "type": "trainer",
+    "role": "gymleader",
+    "team": [
+      { "species": "growlithe", "level": 42, "moves": ["ember", "bite", "agility", "flamethrower"] },
+      { "species": "arcanine",  "level": 50, "moves": ["flamethrower", "extreme_speed", "crunch", "fire_blast"] },
+      { "species": "magmar", "level": 55, "moves": ["smog", "confuse_ray", "fire_punch", "flamethrower"] },
+      { "species": "rapidash", "level": 47, "moves": ["flame_wheel", "stomp", "agility", "fire_spin"] },
+      { "species": "ninetales",  "level": 45, "moves": ["flamethrower", "confuse_ray", "quick_attack", "fire_spin"] },
+      { "species": "charizard", "level": 52, "moves": ["flamethrower", "slash", "wing_attack", "fire_blast"] }
+    ]
+  },
+  "brock": {
+    "id": "brock",
+    "name": "Brock",
+    "skin": "rpgcobblemon:textures/skins/gymleaders/brock.png",
+    "type": "trainer",
+    "role": "gymleader",
+    "team": [
+      {
+        "species": "geodude",
+        "level": 44,
+        "moves": ["rock_throw", "earthquake", "defense_curl", "tackle"]
+      },
+      {
+        "species": "onix",
+        "level": 46,
+        "moves": ["rock_tomb", "bind", "sandstorm", "slam"]
+      },
+      {
+        "species": "vulpix",
+        "level": 40,
+        "moves": ["ember", "quick_attack", "confuse_ray", "flamethrower"]
+      },
+      {
+        "species": "crobat",
+        "level": 47,
+        "moves": ["wing_attack", "bite", "toxic", "air_slash"]
+      },
+      {
+        "species": "steelix",
+        "level": 52,
+        "moves": ["iron_tail", "earthquake", "iron_defense", "tackle"]
+      },
+      {
+        "species": "rhydon",
+        "level": 48,
+        "moves": ["earthquake", "rock_slide", "horn_attack", "take_down"]
+      }
+    ]
+  },
+  "erika": {
+    "id": "erika",
+    "name": "Erika",
+    "skin": "rpgcobblemon:textures/skins/gymleaders/erika.png",
+    "type": "trainer",
+    "role": "gymleader",
+    "team": [
+      { "species": "victreebel", "level": 50, "moves": ["razor_leaf", "sleep_powder", "acid", "wrap"] },
+      { "species": "vileplume", "level": 47, "moves": ["petal_dance", "stun_spore", "acid", "moonlight"] },
+      { "species": "tangela", "level": 44,  "moves": ["bind", "growth", "stun_spore", "vine_whip"] },
+      {
+        "species": "exeggcute",
+        "level": 42,
+        "moves": ["stun_spore", "leech_seed", "psychic", "egg_bomb"]
+      },
+      {
+        "species": "parasect",
+        "level": 43,
+        "moves": ["spore", "stun_spore", "leech_life", "growth"]
+      },
+      {
+        "species": "bellossom",
+        "level": 45,
+        "moves": ["solar_beam", "sleep_powder", "stun_spore", "acid"]
+      }
+    ]
+  },
+  "giovanni": {
+    "id": "giovanni",
+    "name": "Giovanni",
+    "skin": "rpgcobblemon:textures/skins/gymleaders/giovanni.png",
+    "role": "gymleader",
+    "type": "trainer",
+    "team": [
+      { "species": "rhyhorn", "level": 44, "moves": ["horn_attack", "earthquake", "rock_slide", "take_down"] },
+      { "species": "rhydon", "level": 50, "moves": ["earthquake", "rock_blast", "megahorn", "take_down"] },
+      { "species": "nidoking", "level": 48, "moves": ["earthquake", "sludge_bomb", "megahorn", "thrash"] },
+      { "species": "nidoqueen", "level": 48, "moves": ["earthquake", "body_slam", "poison_sting", "rock_slide"] },
+      { "species": "persian", "level": 45, "moves": ["slash", "bite", "pay_day", "hyper_beam"] },
+      { "species": "dugtrio", "level": 46, "moves": ["earthquake", "rock_slide", "sand_attack", "slash"] }
+    ]
+  },
+  "koga": {
+    "id": "koga",
+    "name": "Koga",
+    "skin": "rpgcobblemon:textures/skins/gymleaders/koga.png",
+    "type": "trainer",
+    "role": "gymleader",
+    "team": [
+      {
+        "species": "koffing",
+        "level": 45,
+        "moves": ["sludge", "smokescreen", "self_destruct", "toxic"]
+      },
+      {
+        "species": "weezing",
+        "level": 49,
+        "moves": ["sludge_bomb", "smokescreen", "explosion", "toxic"]
+      },
+      {
+        "species": "golbat",
+        "level": 47,
+        "moves": ["wing_attack", "toxic", "confuse_ray", "bite"]
+      },
+      {
+        "species": "muk",
+        "level": 50,
+        "moves": ["sludge_bomb", "toxic", "acid_armor", "pound"]
+      },
+      {
+        "species": "venomoth",
+        "level": 51,
+        "moves": ["psychic", "stun_spore", "sleep_powder", "toxic"]
+      },
+      {
+        "species": "ariados",
+        "level": 48,
+        "moves": ["poison_sting", "string_shot", "night_shade", "toxic"]
+      }
+    ]
+  },
+  "lt_surge":{
+    "id": "lt_surge",
+    "name": "Lt. Surge",
+    "skin": "rpgcobblemon:textures/skins/gymleaders/lt_surge.png",
+    "type": "trainer",
+    "role": "gymleader",
+    "team": [
+      {
+        "species": "voltorb",
+        "level": 42,
+        "moves": ["tackle", "self_destruct", "spark", "thunder_wave"]
+      },
+      {
+        "species": "electrode",
+        "level": 46,
+        "moves": ["thunder", "explosion", "swift", "screech"]
+      },
+      {
+        "species": "electabuzz",
+        "level": 47,
+        "moves": ["thunder_punch", "light_screen", "quick_attack", "seismic_toss"]
+      },
+      {
+        "species": "jolteon",
+        "level": 49,
+        "moves": ["thunderbolt", "pin_missile", "agility", "double_kick"]
+      },
+      {
+        "species": "raichu",
+        "level": 52,
+        "moves": ["thunderbolt", "quick_attack", "slam", "agility"]
+      },
+      {
+        "species": "magneton",
+        "level": 44,
+        "moves": ["thunder", "sonic_boom", "supersonic", "lock_on"]
+      }
+    ]
+  },
+  "misty": {
+    "id": "misty",
+    "name": "Misty",
+    "skin": "rpgcobblemon:textures/skins/gymleaders/misty.png",
+    "type": "trainer",
+    "role": "gymleader",
+    "team": [
+      {
+        "species": "staryu",
+        "level": 42,
+        "moves": ["water_gun", "swift", "recover", "rapid_spin"]
+      },
+      {
+        "species": "starmie",
+        "level": 46,
+        "moves": ["surf", "psychic", "recover", "ice_beam"]
+      },
+      {
+        "species": "golduck",
+        "level": 44,
+        "moves": ["surf", "psychic", "hydro_pump", "ice_punch"]
+      },
+      {
+        "species": "gyarados",
+        "level": 51,
+        "moves": ["hydro_pump", "dragon_rage", "bite", "hyper_beam"]
+      },
+      {
+        "species": "lapras",
+        "level": 54,
+        "moves": ["ice_beam", "surf", "body_slam", "confuse_ray"]
+      },
+      {
+        "species": "psyduck",
+        "level": 40,
+        "moves": ["water_gun", "confusion", "disable", "amnesia"]
+      }
+    ]
+  },
+  "sabrina": {
+    "id": "sabrina",
+    "name": "Sabrina",
+    "skin": "rpgcobblemon:textures/skins/gymleaders/sabrina.png",
+    "type": "trainer",
+    "role": "gymleader",
+    "team": [
+      {
+        "species": "abra",
+        "level": 40, "moves": ["teleport", "psybeam"]
+      },
+      {
+        "species": "kadabra",
+        "level": 44,
+        "moves": ["psybeam", "recover", "reflect", "psychic"]
+      },
+      {
+        "species": "alakazam",
+        "level": 52,
+        "moves": ["psychic", "recover", "reflect", "calm_mind"]
+      },
+      {
+        "species":"mr_mime",
+        "level": 48,
+        "moves": ["psychic", "barrier", "substitute", "light_screen"]
+      },
+      {
+        "species": "hypno",
+        "level": 50,
+        "moves": ["psychic", "hypnosis", "dream_eater", "disable"]
+      },
+      {
+        "species": "venomoth",
+        "level": 47,
+        "moves": ["psychic", "stun_spore", "toxic", "gust"]
+      }
+    ]
+  }
+}

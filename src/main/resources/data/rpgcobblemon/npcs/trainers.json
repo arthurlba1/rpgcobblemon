@@ -1,0 +1,16 @@
+{
+  "britney_trainer": {
+    "id": "britney_trainer",
+    "name": "Britney",
+    "skin": "rpgcobblemon:textures/skins/trainers/britney.png",
+    "type": "trainer",
+    "role": "trainer",
+    "team": [
+      { "species": "growlithe", "level": 17, "moves": ["ember", "bite", "agility"] },
+      { "species": "poliwhirl", "level": 14, "moves": ["hail", "bodyslam", "headbutt"] },
+      { "species": "shuckle", "level": 11, "moves": ["acid", "endure"] },
+      { "species": "rapidash", "level": 14, "moves": ["flame_wheel", "agility"] },
+      { "species": "roselia", "level": 9, "moves": ["furycutter", "absorb"] }
+    ]
+  }
+}
