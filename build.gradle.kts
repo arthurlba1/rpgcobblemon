@@ -2,7 +2,8 @@ plugins {
     id("java")
     id("dev.architectury.loom") version("1.7-SNAPSHOT")
     id("architectury-plugin") version("3.4-SNAPSHOT")
-    kotlin("jvm") version ("1.9.23")
+    kotlin("jvm") version "2.0.20"
+    kotlin("plugin.serialization") version "2.0.20"
 }
 
 group = "org.example"
@@ -29,6 +30,8 @@ repositories {
 }
 
 dependencies {
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
+
     minecraft("net.minecraft:minecraft:1.21.1")
     mappings(loom.officialMojangMappings())
     modImplementation("net.fabricmc:fabric-loader:0.16.5")

@@ -1,8 +1,10 @@
-{
-  "britney_trainer": {
+[
+  {
     "id": "britney_trainer",
     "name": "Britney",
-    "skin": "rpgcobblemon:textures/skins/trainers/britney.png",
+    "skin": "rpgcobblemon:textures/entity/actor/britney.png",
+    "world": "minecraft:overworld",
+    "level": 12,
     "type": "trainer",
     "role": "trainer",
     "team": [
@@ -13,4 +15,4 @@
       { "species": "roselia", "level": 9, "moves": ["furycutter", "absorb"] }
     ]
   }
-}
+]
